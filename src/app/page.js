@@ -1,95 +1,54 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
+import Footer from "./components/footer";
+import img_1 from "./images/img4.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <div className={styles.outer_div}>
+        <div className={styles.left_div}>
+          <div className={styles.heading}>
+            <h1>Start your coding</h1>
+            <h1>Journey now</h1>
+          </div>
           <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
+            How to Start Coding: The Ultimate Guide for Beginner Programmers
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Coding is one of the most valuable skills you can build, and in this
+            post you'll learn about how to start learning. If you’re searching
+            for “how to learn coding,” it might be because you want to advance
+            your career or develop other skills in the computer programming
+            world.
           </p>
-        </a>
+          <div className={styles.btn_div}>
+            <Link className={styles.btn1} href="">
+              Start Now
+            </Link>
+            <Link className={styles.btn1} href="">
+              Advanced
+            </Link>
+          </div>
+        </div>
+        <div className={styles.right_div}>
+          <Image
+            src={img_1}
+            alt="Picture of the author"
+            className={styles.pic1}
+          />
+        </div>
       </div>
+      <p className={styles.bottom}>
+        Anyone can learn to code with time, dedication, and internet access. If
+        you’re reading this, that includes you. That’s why, in this guide, we’ll
+        unpack everything you need to know to start writing code, including:
+        This will help you determine which programming language you learn first,
+        what sorts of projects you want to complete, and ultimately what you
+        want to make of your skills.
+      </p>
+      <Footer />
     </main>
-  )
+  );
 }
