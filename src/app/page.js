@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Footer from "./components/footer";
 import img_1 from "./images/img4.jpg";
 import Link from "next/link";
+import Dsa from "./components/dsa";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
         what sorts of projects you want to complete, and ultimately what you
         want to make of your skills.
       </p>
+      <Dsa />
       <Footer />
     </main>
   );

@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 10;
   }
   .title {
     display: flex;
@@ -45,6 +46,7 @@
   .outer_div {
     width: 100%;
     top: 0;
+    z-index: 10;
     position: fixed;
     padding: 0 30px;
     background-color: #040a13;
@@ -104,6 +106,7 @@
   .outer_div {
     width: 100%;
     top: 0;
+    z-index: 10;
     position: fixed;
     padding: 0 10px;
     background-color: #040a13;

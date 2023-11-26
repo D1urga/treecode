@@ -1,0 +1,137 @@
+@media screen and (min-width: 900px) {
+  .outer_div {
+    padding: 30px 0px;
+    width: 100%;
+    /* background-color: rgb(47, 37, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: linear-gradient(
+      to right,
+      rgb(14, 7, 19),
+      rgb(45, 32, 54),
+      rgb(17, 9, 22)
+    );
+  }
+  .outer_div h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(223, 223, 199);
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 3px;
+    width: 50%;
+    background-color: #ccc1c1;
+    border-radius: 10px;
+  }
+  .cards {
+    height: 850px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    padding: 0 10vw;
+    align-items: center;
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .outer_div {
+    padding: 30px 0px;
+    width: 100%;
+    /* background-color: rgb(47, 37, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: linear-gradient(
+      to right,
+      rgb(14, 7, 19),
+      rgb(45, 32, 54),
+      rgb(17, 9, 22)
+    );
+  }
+  .outer_div h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(223, 223, 199);
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 3px;
+    width: 80%;
+    background-color: #ccc1c1;
+    border-radius: 10px;
+  }
+  .cards {
+    height: 950px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    padding: 0 5vw;
+    align-items: center;
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .outer_div {
+    padding: 30px 0px;
+    width: 100%;
+    /* background-color: rgb(47, 37, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: linear-gradient(
+      to right,
+      rgb(14, 7, 19),
+      rgb(45, 32, 54),
+      rgb(17, 9, 22)
+    );
+  }
+  .outer_div h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(223, 223, 199);
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 3px;
+    width: 80%;
+    background-color: #ccc1c1;
+    border-radius: 10px;
+  }
+  .cards {
+    height: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 0 3vw;
+    align-items: center;
+    justify-content: end;
+  }
+}
