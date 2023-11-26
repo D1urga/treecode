@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.divider}></div>
-      <div className={styles.intro}>
+      <div id="foot" className={styles.intro}>
         <p>This website is developed by Anoop Kumar Chaudhary</p>
       </div>
     </div>

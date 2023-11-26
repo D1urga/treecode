@@ -20,6 +20,7 @@ export default function Navbar() {
           <li
             onClick={() => {
               setIsShowing(!isShowing);
+              document.getElementById("foot").scrollIntoView();
             }}
           >
             <Link href="">Leetcode</Link>

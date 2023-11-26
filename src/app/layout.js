@@ -1,8 +1,8 @@
-import { Inter } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar.js";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Nunito({ subsets: ["latin"], weight: "500" });
 
 export const metadata = {
   title: "Create Next App",
