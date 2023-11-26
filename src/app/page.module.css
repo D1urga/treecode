@@ -110,11 +110,13 @@
     margin: 30px 0 30px 0;
   }
   .btn1 {
-    padding: 15px 15vw;
+    padding: 15px 14.7vw;
     margin: 2.5px;
     background-color: #040a13;
     color: rgb(159, 220, 225);
     border-radius: 3px;
+    font-size: 17px;
+    font-weight: 600;
   }
   .bottom {
     display: flex;
@@ -186,6 +188,8 @@
     background-color: #040a13;
     color: rgb(159, 220, 225);
     border-radius: 3px;
+    font-weight: 600;
+    font-size: 17px;
   }
   .bottom {
     margin: 30px 5vw;

@@ -49,12 +49,18 @@ export default function Navbar() {
         </ul>
         <ul className={styles.logo_list}>
           <li>
-            <Link href="">
+            <Link
+              href="https://instagram.com/anoopchaudhary1?igshid=OGQ5ZDc2ODk2ZA=="
+              target="blank"
+            >
               <Icons Icon={FaInstagram} font={28} />
             </Link>
           </li>
           <li>
-            <Link href="">
+            <Link
+              href="https://www.linkedin.com/in/anoop-kumar-189159238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="blank"
+            >
               <Icons Icon={FaLinkedin} font={28} />
             </Link>
           </li>
