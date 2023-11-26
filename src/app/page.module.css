@@ -1,6 +1,7 @@
 @media screen and (min-width: 900px) {
   .outer_div {
-    margin: 5px 0px;
+    margin-top: 5.5rem;
+    margin-bottom: 6px;
     display: flex;
   }
   .left_div {
@@ -17,7 +18,7 @@
     color: rgb(141, 117, 0);
   }
   .left_div h2 {
-    font-weight: 500;
+    font-weight: 600;
     margin: 10px 30px 10px 0;
   }
   .left_div p {
@@ -54,7 +55,8 @@
 
 @media screen and (max-width: 900px) and (min-width: 520px) {
   .outer_div {
-    margin: 5px 0px;
+    margin-top: 4.5rem;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
   }
@@ -79,7 +81,7 @@
     justify-content: center;
     align-items: center;
     margin: 5px 5vw;
-    font-weight: 500;
+    font-weight: 600;
   }
   .left_div p {
     display: flex;
@@ -108,9 +110,8 @@
     margin: 30px 0 30px 0;
   }
   .btn1 {
-    padding: 15px 13vw;
-    margin: 2px;
-    margin-right: 20px;
+    padding: 15px 15vw;
+    margin: 2.5px;
     background-color: #040a13;
     color: rgb(159, 220, 225);
     border-radius: 3px;
@@ -125,7 +126,8 @@
 
 @media screen and (max-width: 520px) {
   .outer_div {
-    margin: 5px 0px;
+    margin-top: 3.5rem;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
   }
@@ -142,12 +144,12 @@
     align-items: center;
     font-size: 25px;
     font-weight: 600;
-    margin: 0 6px;
+    margin: 0 0;
     color: rgb(141, 117, 0);
   }
   .left_div h2 {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 5px 5vw;
   }
   .left_div p {
@@ -173,13 +175,14 @@
   }
   .btn_div {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin: 30px 0 30px 0;
   }
   .btn1 {
-    padding: 15px 31vw;
-    margin: 2px;
-    margin-right: 20px;
+    padding: 15px 33vw;
+    margin: 2.5px;
     background-color: #040a13;
     color: rgb(159, 220, 225);
     border-radius: 3px;
