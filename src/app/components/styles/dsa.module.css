@@ -7,12 +7,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    background-image: linear-gradient(
-      to right,
-      rgb(14, 7, 19),
-      rgb(45, 32, 54),
-      rgb(17, 9, 22)
-    );
+    background-color: rgb(227, 227, 255);
   }
   .outer_div h1 {
     display: flex;
@@ -21,7 +16,7 @@
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: rgb(223, 223, 199);
+    color: rgb(59, 59, 48);
   }
   .divider {
     display: flex;
@@ -30,7 +25,7 @@
     margin-bottom: 20px;
     height: 3px;
     width: 50%;
-    background-color: #ccc1c1;
+    background-color: rgb(59, 59, 48);
     border-radius: 10px;
   }
   .cards {
@@ -53,12 +48,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    background-image: linear-gradient(
-      to right,
-      rgb(14, 7, 19),
-      rgb(45, 32, 54),
-      rgb(17, 9, 22)
-    );
+    background-color: rgb(227, 227, 255);
   }
   .outer_div h1 {
     display: flex;
@@ -67,7 +57,7 @@
     font-size: 29px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: rgb(223, 223, 199);
+    color: rgb(59, 59, 48);
   }
   .divider {
     display: flex;
@@ -76,11 +66,11 @@
     margin-bottom: 20px;
     height: 3px;
     width: 80%;
-    background-color: #ccc1c1;
+    background-color: rgb(59, 59, 48);
     border-radius: 10px;
   }
   .cards {
-    height: 950px;
+    height: 1060px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
@@ -99,12 +89,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    background-image: linear-gradient(
-      to right,
-      rgb(14, 7, 19),
-      rgb(45, 32, 54),
-      rgb(17, 9, 22)
-    );
+    background-color: rgb(227, 227, 255);
   }
   .outer_div h1 {
     display: flex;
@@ -113,7 +98,7 @@
     font-size: 21px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: rgb(223, 223, 199);
+    color: rgb(59, 59, 48);
   }
   .divider {
     display: flex;
@@ -122,7 +107,7 @@
     margin-bottom: 20px;
     height: 3px;
     width: 80%;
-    background-color: #ccc1c1;
+    background-color: rgb(59, 59, 48);
     border-radius: 10px;
   }
   .cards {
