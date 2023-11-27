@@ -10,7 +10,7 @@
     box-shadow: rgb(49, 59, 59) 1px 1px 5px 0px;
   }
   .outer_div h2 {
-    color: pink;
+    color: rgb(255, 255, 255);
     height: 30%;
     width: 100%;
     display: flex;
@@ -42,7 +42,7 @@
     box-shadow: rgb(49, 59, 59) 1px 1px 5px 0px;
   }
   .outer_div h2 {
-    color: pink;
+    color: rgb(255, 255, 255);
     height: 30%;
     width: 100%;
     display: flex;
@@ -74,7 +74,7 @@
     box-shadow: rgb(49, 59, 59) 1px 1px 5px 0px;
   }
   .outer_div h2 {
-    color: pink;
+    color: rgb(255, 255, 255);
     height: 30%;
     width: 100%;
     display: flex;
