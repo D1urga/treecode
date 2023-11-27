@@ -7,7 +7,7 @@
     transition: 300ms ease-in-out;
     width: 12vw;
     height: 50px;
-    background-color: rgb(59, 59, 48);
+    background-color: rgb(34, 36, 86);
     border-radius: 3px;
     margin: 0 auto;
     box-shadow: rgb(59, 57, 57) 0.5px 0.5px 0px 0px;
@@ -21,7 +21,7 @@
     align-items: center;
     width: 12vw;
     height: 50px;
-    background-color: rgba(10, 5, 13, 0.9);
+    background-color: rgba(25, 25, 55, 0.9);
     border-radius: 5px;
     margin: 0 auto;
     box-shadow: rgb(214, 210, 210) 0px 0px 2px 0px;
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(253, 206, 208);
+    color: rgb(236, 228, 228);
 
     /* border-radius: 5px 0 0 5px; */
   }
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(237, 229, 229);
+    color: rgb(226, 213, 213);
     font-weight: 500;
     /* border-radius: 0 5px 5px 0; */
     font-size: 13px;
@@ -60,7 +60,7 @@
     transition: 300ms ease-in-out;
     width: 20vw;
     height: 50px;
-    background-color: rgb(59, 59, 48);
+    background-color: rgb(34, 36, 86);
     border-radius: 3px;
     margin: 0 auto;
     box-shadow: rgb(59, 57, 57) 0.5px 0.5px 3px 1px;
@@ -73,7 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(253, 206, 208);
+    color: rgb(236, 228, 228);
 
     /* border-radius: 5px 0 0 5px; */
   }
@@ -84,7 +84,7 @@
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    color: rgb(237, 229, 229);
+    color: rgb(236, 228, 228);
     font-weight: 500;
     /* border-radius: 0 5px 5px 0; */
     font-size: 12px;
@@ -101,10 +101,10 @@
     transition: 300ms ease-in-out;
     width: 28vw;
     height: 40px;
-    background-color: rgb(59, 59, 48);
-    border-radius: 5px;
+    background-color: rgb(34, 36, 86);
+    border-radius: 3px;
     margin: 0 auto;
-    box-shadow: rgb(59, 57, 57) 0.5px 0.5px 3px 1px;
+    box-shadow: rgb(59, 57, 57) 0.5px 0.5px 1.5px 1px;
     /* backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px); */
     border: 1px solid rgba(65, 63, 63, 0.42);
@@ -116,7 +116,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(253, 206, 208);
+    color: rgb(236, 228, 228);
     /* border-radius: 5px 0 0 5px; */
   }
   .outer_div h3 {
@@ -126,7 +126,7 @@
     border-radius: 5px;
     justify-content: center;
     align-items: start;
-    color: rgb(237, 229, 229);
+    color: rgb(236, 228, 228);
     font-weight: 500;
     /* border-radius: 0 5px 5px 0; */
     font-size: 11px;
