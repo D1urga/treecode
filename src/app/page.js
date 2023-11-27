@@ -4,6 +4,8 @@ import Footer from "./components/footer";
 import img_1 from "./images/img4.jpg";
 import Link from "next/link";
 import Dsa from "./components/dsa";
+import Dev from "./components/dev";
+// import { Album } from "lucide-react";
 
 export default function Home() {
   return (
@@ -50,6 +52,7 @@ export default function Home() {
         want to make of your skills.
       </p>
       <Dsa />
+      <Dev />
       <Footer />
     </main>
   );
